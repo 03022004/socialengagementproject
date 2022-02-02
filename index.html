@@ -1,0 +1,135 @@
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HOMEPAGE</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="script.js"></script>
+  <body style="background-image:url(https://media.istockphoto.com/photos/twinkling-star-field-overlay-texture-on-black-background-picture-id938050474?k=20&m=938050474&s=170667a&w=0&h=mGSItWVn4PSjxbeJ6aiF98SiUj_QunroSt2cNJpRqr0=")>
+</head>
+
+<body>
+    <div class="navbar">
+        <p>Garance Loisance - GBBA Y1 Paris - English Track </p>
+    </div>
+    <div class="bigname">
+        <a href="index.html">au coeur de la précarité</a>
+        <p>et si c'était moi ?</p>
+    </div>
+
+
+
+
+    <div class="msg-container">
+        <div id="slider">
+            <div class="msg-col">
+                <h1>presentation</h1>
+                <p>as someone who has always lived in privileged environments, I have found it relevant to be as aware as possible of what is going on around me. "what if it was me?" was my thwack.</p>
+                <a href="#aboutme">discover more</a>
+            </div>
+            <div class="msg-col">
+                <h1>vlog</h1>
+                <p>i realised a vlog with videos i took during my volunteering hours.</p>
+                <a href="#vlog">discover more</a>
+            </div>
+            <div class="msg-col">
+                <h1>interview</h1>
+                <p>i intervied Khadija Allaoui, one of my new friends after collaborating <br>few hours with her.</p>
+                <a href="#interview">discover more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="controller">
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="line3"></div>
+    <div id="active"></div>
+    </div>
+    <script type="text/javascript">
+    var slider = document.getElementById('slider');
+    var active = document.getElementById('active');
+    var line1 = document.getElementById('line1');
+    var line2 = document.getElementById('line2');
+    var line3 = document.getElementById('line3');
+    
+    line1.onclick = function(){
+        slider.style.transform = 'translateX(0)';
+        active.style.top = '0px';
+    }
+    line2.onclick = function(){
+        slider.style.transform = 'translateX(-33%)';
+        active.style.top = '100px';
+    }
+    line3.onclick = function(){
+        slider.style.transform = 'translateX(-66%)';
+        active.style.top = '200px';
+    }
+    </script>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="parallax">
+    </div>
+
+    <div id="aboutme">
+        <div class="aboutme">
+            <h1>about me</h1>
+            <p>
+                <a href=index.html>click here to return to homepage</a><br><br><br>
+                my name is Garance Loisance, I am a student at NEOMA business school and i decided to volunteer at Au coeur de la précarité in december and january.
+                <br>i designed and coded all of this website by myself.
+                <br>i chose Au Coeur de la Précarité because one of my friends was a volunteer there, and I really wanted to see how it is.
+                <br>i come from a privileged environment and i really need to get out of my comfort zone to be as aware as possible of the issues we face.
+                <br>i met amazing people and had a great time with them. i volunteered 20 hours and i plan on coming there more often, to help them.
+            </p>
+        </div>
+    </div>
+
+    <div class="parallax2">
+    </div>
+
+    <div id="vlog">
+        <div class="vlog">
+            <h1>vlog</h1>
+            <p>
+                <a href=index.html>click here to return to homepage</a>
+            </p>
+            <iframe src="https://www.youtube.com/embed/h-w8R0bU9EM"
+                width="560" height="315" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div class="parallax3">
+    </div>
+
+    <div id="interview">
+        <div class="interview">
+            <h1>interview</h1>
+            <p>
+                <a href=index.html>click here to return to homepage</a> <br><br>
+                I interviewed Khadija, she's been an active member of au coeur de la précarité these past months. she's 18 years old and is a student at Université La Sorbonne.
+                <br><br><br>
+                Q1: hello khadija, could you introduce yourself?
+                <br><br>
+                A1: my name is khadija, i am 18 years old and i study at the university of the sorbonne in economics and management. i am a volunteer at "au coeur de la précarité" since april 2021
+                <br><br>
+                Q2: how did you hear about au coeur de la précarité? 
+                <br><br>
+                A2: I knew Au coeur de la précarité through my cousin who was already a volunteer
+                <br><br>
+                Q3: did you do anything else than preparing meals like I did?
+                <br><br>
+                A3: yes, I have already done some marauding on weekend evenings
+                <br><br>
+                Q4: what did you personally gain from it?
+                <br><br>
+                A4: I really felt useful in this world and detached from myself, I finally felt useful to society and I found a home in "the heart of precariousness". The women I cook with are not people of our age, they are mothers who themselves have had very difficult moments in their lives, and who are always there for us. through these moments when we prepared meals, we really created a relationship where we confided in each other, we cried, we laughed, while having a common goal: to help these people get out of poverty 
+                <br><br>
+                Q5: thank you for these insights! would you recommend Au Coeur de la Précarité for anyone?
+                <br><br>
+                A5: sure! it's an amazing experience.
+            </p>
+        </div>
+    </div>
+
+</body>
